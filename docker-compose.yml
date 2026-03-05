@@ -1,6 +1,6 @@
 services:
   backend:
-    image: hrmstrailblazer/234-deploylab-backend:latest
+    image: hrmstrailblazer/234-deploy-backend:latest
     pull_policy: always
     ports:
       - "8082:8080"
