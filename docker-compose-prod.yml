@@ -1,0 +1,7 @@
+services:
+  backend-v2:
+    # This must be the image built from your NEW branch
+    image: hrmstrailblazer/234-deploy-backend:new-logic-tag 
+    ports:
+      - "8092:8080"
+    restart: unless-stopped
